@@ -3,6 +3,18 @@ import textile
 import cherrypy
 import re, os
 
+# update config file to current working directory
+regex = re.compile('current_directory')
+
+f = open('post.config.base', 'r')
+contents = f.read()
+contents = regex.sub(os.getcwd(), contents)
+f.close()
+
+f = open('post.config', 'w')
+f.write(contents)
+f.close() 
+
 class Post(object):
   def __init__(self, date = datetime.today().strftime('%Y%m%d%H%M%S'), title = "", body = ""):
     self.date = date
