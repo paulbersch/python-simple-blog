@@ -1,0 +1,39 @@
+body {
+	font: 12px Verdana, sans-serif;
+}
+
+.time {
+	font-size: 10px;
+	font-style: bold;
+}
+
+#posts {
+	width : 80%;
+	margin : auto;
+	background: #0078AB;
+}
+
+.thepost {
+	background: #005478;
+	width: 80%;
+	margin: auto;
+}
+
+.editing {
+	background: #005478;
+	width: 80%;
+	margin: auto;
+}
+
+.thesubject {
+	font-style: bold;
+	letter-spacing: .2em;
+}
+
+.thebody {
+	background: #BFECFF;
+	width : 80%;
+	margin : auto;
+	padding : 5px;
+	line-height: 1.5em;
+}
