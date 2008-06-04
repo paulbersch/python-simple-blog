@@ -35,7 +35,11 @@ function fill_form_and_escape(postID) {
 	ajax.open('POST', 'edit', true);
 	ajax.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
 	ajax.send(data);
-        $('.hidden').ajaxSuccess(updatePost(postID));
+        ajax.onreadystatechange = function() {
+          if(ajax.readyState == 4){
+            updatePost(postID);
+          }
+        };
 }
 
 function setClickable() {
@@ -82,24 +86,10 @@ function newPostSetClickable() {
 
 function updatePost(postID) {
   $('#editTextarea').remove();
-  //var newElement = document.createElement('div');
-  //newElement.setAttribute('class', 'post');
-  //newElement.setAttribute('id', postID);
-  //$('.hidden').after(newElement);
-  //$('.hidden').remove();
 
   $('.hidden').load("ajaxget", {"id": postID});
   $('.hidden').show("fast");
   $('.hidden').removeClass("hidden");
-
-//    var newElement = document.createElement('div');
-//    newElement.setAttribute('class', 'post newelement');
-//    newElement.setAttribute('style', 'display: none');
-//    $('.hidden').after(newelement);
-//    $('.hidden').replaceWith(newElement);
-//    $('.hidden').load("ajaxget", {"id": postID});
-//    $('.hidden').show("fast");
-//    $('.hidden').removeClass("hidden");
 
 }
 

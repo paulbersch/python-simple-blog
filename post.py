@@ -4,16 +4,19 @@ import cherrypy
 import re, os
 
 # update config file to current working directory
-regex = re.compile('current_directory')
+def updateConfig(self):
+  regex = re.compile('current_directory')
 
-f = open('post.config.base', 'r')
-contents = f.read()
-contents = regex.sub(os.getcwd(), contents)
-f.close()
+  # open base file
+  f = open('post.config.base', 'r')
+  contents = f.read()
+  contents = regex.sub(os.getcwd(), contents)
+  f.close()
 
-f = open('post.config', 'w')
-f.write(contents)
-f.close() 
+  # write new config file
+  f = open('post.config', 'w')
+  f.write(contents)
+  f.close()
 
 class Post(object):
   def __init__(self, date = datetime.today().strftime('%Y%m%d%H%M%S'), title = "", body = ""):
@@ -88,10 +91,10 @@ class Blog(object):
     header = open('theme/header.php', 'r')
     page.append(header.read())
     header.close()
-    
+
     for post in self.posts:
       page.append(post.createPost())
-    
+
     footer = open('theme/footer.php', 'r')
     page.append(footer.read())
     footer.close()
@@ -118,68 +121,14 @@ class Blog(object):
         return post.createPost(False)
   ajaxget.exposed = True
 
-      
+
 
 cherrypy.tree.mount(Blog(), config='post.config')
 
 if __name__ == '__main__':
   import os.path
   cherrypy.config.update(os.path.join(os.path.dirname(__file__), 'tutorial.conf'))
-  
+
   cherrypy.server.quickstart()
   cherrypy.engine.start()
-
-
-"""
-[/]
-tools.staticdir.root = os.path.normcase('C:/Documents and Settings/pnbersch/Desktop/play/ponies/')
-[/js/jquery-1.2.1.js]
-tools.staticfile.on = True
-tools.staticfile.filename = os.path.normcase("C:/Documents and Settings/pnbersch/Desktop/play/ponies/js/jquery-1.2.1.js")
-
-[/js/functions.js]
-tools.staticfile.on = True
-tools.staticfile.filename = os.path.normcase("C:/Documents and Settings/pnbersch/Desktop/play/ponies/js/functions.js")
-
-[/theme/main.css]
-tools.staticfile.on = True
-tools.staticfile.filename = os.path.normcase("C:\Documents and Settings\pnbersch\Desktop\play\ponies/theme/main.css")
-
-
-
-
-"""
-
-
-# myblog = Blog()
-
-# print myblog.makePage()
-
-#for post in myblog.posts:
-#  print post.title
-#  print post.date
-#  print post.markedupbody
-
-
-#print myblog.posts[0].title
-#print myblog.posts[0].date
-#print myblog.posts[0].body
-
-# datetime.today().strftime('%Y%m%d%H%M%S')
-
-#thepost = Post()
-
-#thepost.title = 'Fear!'
-#thepost.body = 'I find that you should fear all _ponies_.'
-
-#thepost.markupbody()
-
-#print thepost.title
-
-#print thepost.date.strftime('%Y%m%d%H%M%S')
-
-#print thepost.body
-
-#print thepost.markedupbody
-
 
