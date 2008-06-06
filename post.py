@@ -4,7 +4,7 @@ import cherrypy
 import re, os
 
 # update config file to current working directory
-def updateConfig(self):
+def updateConfig():
   regex = re.compile('current_directory')
 
   # open base file
@@ -121,7 +121,7 @@ class Blog(object):
         return post.createPost(False)
   ajaxget.exposed = True
 
-
+updateConfig()
 
 cherrypy.tree.mount(Blog(), config='post.config')
 
