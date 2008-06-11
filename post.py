@@ -108,6 +108,14 @@ class Blog(object):
         return post.createEditor(width, height)
   ajaxedit.exposed = True
 
+  @cherrypy.tools.staticdir(root=os.getcwd(), dir='files')
+  def files(self):
+    yield '<h2>Browsing directory /files</h2>\n'
+    for dirpath, dirnames, filenames in os.walk(os.getcwd()+'/files'):
+      for filename in filenames:
+        yield '<a href="/files/%s">%s</a>\n' % (filename, filename)
+  files.exposed = True
+
   def edit(self, post_title, post_body, post_date):
     for post in self.posts:
       if post.date == post_date:
@@ -120,6 +128,7 @@ class Blog(object):
       if post.date == id:
         return post.createPost(False)
   ajaxget.exposed = True
+
 
 updateConfig()
 
