@@ -138,6 +138,7 @@ if __name__ == '__main__':
   import os.path
   cherrypy.config.update(os.path.join(os.path.dirname(__file__), 'tutorial.conf'))
 
-  cherrypy.server.quickstart()
+  #(depreciated)
+  #cherrypy.server.quickstart()
   cherrypy.engine.start()
 
