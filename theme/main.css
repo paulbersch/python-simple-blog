@@ -3,7 +3,7 @@
  margin-left: auto;
  margin-right: auto;
  margin-top: 10px;
- background-color: #ddd;
+ /*background-color: #ddd;*/
  text-align: left;
  font: 1.1em Verdana, sans-serif;
 }
@@ -62,6 +62,11 @@
  background-color: #000;
 }
 
+#navigation li a {
+  text-decoration: none;
+  color: #fff;
+}
+
 #sidebar {
  float: right;
  background-color: #666;
@@ -103,6 +108,7 @@
  margin: 8px;
 }
 
+/*
 .post_footer {
  width: 100%;
  margin: 0px;
@@ -119,7 +125,7 @@
  font-size: .7em;
  text-align: right;
 }
-
+*/
 #footer {
  clear: both;
  text-align: right;
@@ -158,4 +164,18 @@ h3.time {
   padding: 0px;
   margin: 0px;
   margin-left: 5px;
+}
+
+.copyright {
+  font-size: .8em;
+}
+
+.gist {
+  width: 95%;
+  margin: auto;
+}
+
+#editTextarea {
+  margin: auto;
+  width: 90%;
 }

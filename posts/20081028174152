@@ -1,6 +1,6 @@
-This is the title
-And this is the body.  The body of cheese.
+Syntax Highligting with Gist
+Github (<a href="http://github.com">http://github.com</a>), the new-ish Git repository hosting / social coding / collaboration site, launched a service called Gist a few days ago.  The developers describe it as a way to have cut/paste snippets of code and text in an easy-to-use git repository.  However, as soon as I saw the embed feature, I realized this was a perfect way to post code snippets in my blog.  I may still eventually develop my own syntax highlighting, but this will certainly suffice in the meantime.
 
-Lalala. LAAAAAAAAAA.
+<script src="http://gist.github.com/2518.js"></script>
 
-Change!  Oh jeeze, and we're all fancy in our VPS.  Fancy fancy fancy.
+Github is also an excellent complement to git, especially for git newbies.

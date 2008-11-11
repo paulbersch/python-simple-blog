@@ -26,16 +26,17 @@
     <div id="main_title">
       <h1>overcomplicated.org</h1>
 
-      <h2>Temporary Home of Paul Bersch</h2>
+      <h2>Soon to be cleansed of the crazy</h2>
     </div>
     <div id="navigation">
        <ul>
-         <li>Home</li>
+         <li><a href = "http://overcomplicated.org">Home</a></li>
          <li>About</li>
        </ul>
     </div>
   </div>
-<!--  <div id="sidebar">
+<!--
+  <div id="sidebar">
     <h1>The Sidebar</h1>
     <h2>A list within the Sidebar</h2>
     <ul>

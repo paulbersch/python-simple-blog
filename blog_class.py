@@ -36,6 +36,20 @@ class Blog(object):
     return page
   index.exposed = True
 
+  def about(self):
+    f = open('pages/about.html', 'r')
+    contents = f.read()
+    f.close()
+    return contents
+  about.exposed = True
+
+  def resume(self):
+    f = open('pages/resume.html', 'r')
+    contents = f.read()
+    f.close()
+    return contents
+  resume.exposed = True
+
   def post(self, id):
     header = open('theme/header.php', 'r')
     yield header.read()
@@ -62,8 +76,11 @@ class Blog(object):
     yield '<h2>Browsing directory /files</h2>\n'
     for dirpath, dirnames, filenames in os.walk(os.getcwd()+'/files'):
       filenames.sort()
+#      yield dirnames
+#      for dirname in dirnames:
+#        yeild '<a href="/files/%s">%s</a><br>' % (dirname, dirname)
       for filename in filenames:
-        yield '<a href="/files/%s">%s</a>\n' % (filename, filename)
+        yield '<a href="/files/%s">%s</a><br>' % (filename, filename)
   files.exposed = True
 
   def edit(self, post_title, post_body, post_date):
