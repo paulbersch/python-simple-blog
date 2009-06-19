@@ -16,7 +16,7 @@ else if (window.ActiveXObject) {
 }
 
 if (!ajax) {
-	alert('Ajax object could not be created.  Please use a less sucky browser.');
+	alert('Ajax object could not be created.  Please improve your browser.');
 }
 
 
@@ -73,11 +73,12 @@ function newPostSetClickable() {
     newElement.setAttribute('style', 'display: none');
     var newPost = document.createElement('div');
     newPost.setAttribute('class', 'post hidden');
+    newPost.setAttribute('id', 'incomplete_post');
     newPost.setAttribute('style', 'display: none');
     $(this).after(newPost);
     $(this).after(newElement);
 
-    $('#editTextarea').load("ajaxnewpost", {"width": 1, "height": 2 }, function() {
+    $('#editTextarea').load("ajaxnewpost", {"width": 400, "height": 300 }, function() {
       $('#editTextarea').show("fast");
     });
 
@@ -95,8 +96,13 @@ function updatePost(postID) {
 
 function cancelEditing() {
   $('#editTextarea').hide("fast", function() { $(this).remove(); });
-  //$('#editTextarea').remove();
+  $('#incomplete_post').remove();
   $('.hidden').show("fast");
   $('.hidden').removeClass("hidden");
 }
 
+function showLoginWidget() {
+  if ($('#login').html() == "") { 
+    $('#login').load("loginwidget", function() { $('#loginwidget').show('fast'); });
+  }
+}

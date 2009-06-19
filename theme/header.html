@@ -8,13 +8,14 @@
         <link rel="stylesheet" type="text/css" href="theme/main.css">
         <script type="text/javascript" src="js/jquery-1.2.1.js"></script>
         <script type="text/javascript" src="js/functions.js"></script>
-        <!-- <script type="text/javascript" src="js/jquery.form.js"></script> -->
 
         <script type="text/javascript">
-                $(document).ready(function(){
-                        setClickable();
-                        newPostSetClickable();
-                });
+		$(document).ready(function(){
+			if ($('.createnew').html() == "+") {
+				setClickable();
+				newPostSetClickable();
+			}
+		});
 	</script>
 
 </head>
@@ -22,26 +23,15 @@
 
 <body>
 <div id="wrap">
+  <div id="login"></div>
   <div id="header">
-    <div id="main_title">
       <h1>overcomplicated.org</h1>
-
-      <h2>Soon to be cleansed of the crazy</h2>
-    </div>
-    <div id="navigation">
-       <ul>
-         <li><a href = "http://overcomplicated.org">Home</a></li>
-         <li>About</li>
-       </ul>
-    </div>
+      <ul id="navigation">
+        <li><a href="/">home</a></li>
+        <li><a href="about">resume</a></li>
+        <li>pages</li>
+        <li>images</li>
+        <li><a href="#" onclick="showLoginWidget()">login</a></li>
+      </ul>
   </div>
-<!--
-  <div id="sidebar">
-    <h1>The Sidebar</h1>
-    <h2>A list within the Sidebar</h2>
-    <ul>
-      <li>A link to a blog?</li>
-      <li>A link to something else?</li>
-    </ul>
-  </div>
--->
+  <div id="posts">

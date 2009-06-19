@@ -1,0 +1,1034 @@
+[18/Jun/2009:18:55:33] ENGINE Bus STARTING
+[18/Jun/2009:18:55:33] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:18:55:33] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:18:55:33] ENGINE Serving on localhost:8080
+[18/Jun/2009:18:55:33] ENGINE Bus STARTED
+[18/Jun/2009:18:57:18] ENGINE Bus STARTING
+[18/Jun/2009:18:57:18] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:18:57:18] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:18:57:18] ENGINE Serving on localhost:8080
+[18/Jun/2009:18:57:18] ENGINE Bus STARTED
+[18/Jun/2009:19:10:04] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:19:10:04] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:19:10:04] ENGINE Bus STOPPING
+[18/Jun/2009:19:10:04] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:19:10:04] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:19:10:04] ENGINE Bus STOPPED
+[18/Jun/2009:19:10:04] ENGINE Bus EXITING
+[18/Jun/2009:19:10:04] ENGINE Bus EXITED
+[18/Jun/2009:19:10:23] ENGINE Bus STARTING
+[18/Jun/2009:19:10:23] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:19:10:23] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:19:10:23] ENGINE Serving on localhost:8080
+[18/Jun/2009:19:10:23] ENGINE Bus STARTED
+[18/Jun/2009:19:10:29] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 100, in ajaxnewpost
+    return post.createEditor(width, height)
+NameError: global name 'post' is not defined
+
+[18/Jun/2009:19:10:29] HTTP 
+Request Headers:
+  ACCEPT: */*
+  Content-Type: application/x-www-form-urlencoded
+  REFERER: http://localhost:8080/
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  Content-Length: 16
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  X-REQUESTED-WITH: XMLHttpRequest
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:19:10:31] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 100, in ajaxnewpost
+    return post.createEditor(width, height)
+NameError: global name 'post' is not defined
+
+[18/Jun/2009:19:10:31] HTTP 
+Request Headers:
+  ACCEPT: */*
+  Content-Type: application/x-www-form-urlencoded
+  REFERER: http://localhost:8080/
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  Content-Length: 16
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  X-REQUESTED-WITH: XMLHttpRequest
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:19:10:32] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 100, in ajaxnewpost
+    return post.createEditor(width, height)
+NameError: global name 'post' is not defined
+
+[18/Jun/2009:19:10:32] HTTP 
+Request Headers:
+  ACCEPT: */*
+  Content-Type: application/x-www-form-urlencoded
+  REFERER: http://localhost:8080/
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  Content-Length: 16
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  X-REQUESTED-WITH: XMLHttpRequest
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:19:11:04] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 100, in ajaxnewpost
+    return post.createEditor(width, height)
+NameError: global name 'post' is not defined
+
+[18/Jun/2009:19:11:04] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:19:13:59] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:19:13:59] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:19:13:59] ENGINE Bus STOPPING
+[18/Jun/2009:19:13:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:19:13:59] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:19:13:59] ENGINE Bus STOPPED
+[18/Jun/2009:19:13:59] ENGINE Bus EXITING
+[18/Jun/2009:19:13:59] ENGINE Bus EXITED
+[18/Jun/2009:19:14:17] ENGINE Bus STARTING
+[18/Jun/2009:19:14:17] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:19:14:17] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:19:14:17] ENGINE Serving on localhost:8080
+[18/Jun/2009:19:14:17] ENGINE Bus STARTED
+[18/Jun/2009:19:14:18] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 100, in ajaxnewpost
+    post = Post(title='New Post', body='This is a new post')
+NameError: global name 'Post' is not defined
+
+[18/Jun/2009:19:14:18] HTTP 
+Request Headers:
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:19:14:38] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:19:14:38] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:19:14:38] ENGINE Bus STOPPING
+[18/Jun/2009:19:14:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:19:14:39] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:19:14:39] ENGINE Bus STOPPED
+[18/Jun/2009:19:14:39] ENGINE Bus EXITING
+[18/Jun/2009:19:14:39] ENGINE Bus EXITED
+[18/Jun/2009:19:14:48] ENGINE Bus STARTING
+[18/Jun/2009:19:14:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:19:14:48] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:19:14:48] ENGINE Serving on localhost:8080
+[18/Jun/2009:19:14:48] ENGINE Bus STARTED
+[18/Jun/2009:19:24:28] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/post_class.py changed.
+[18/Jun/2009:19:24:28] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:19:24:28] ENGINE Bus STOPPING
+[18/Jun/2009:19:24:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:19:24:28] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:19:24:28] ENGINE Bus STOPPED
+[18/Jun/2009:19:24:28] ENGINE Bus EXITING
+[18/Jun/2009:19:24:28] ENGINE Bus EXITED
+[18/Jun/2009:19:24:38] ENGINE Bus STARTING
+[18/Jun/2009:19:24:38] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:19:24:38] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:19:24:38] ENGINE Serving on localhost:8080
+[18/Jun/2009:19:24:38] ENGINE Bus STARTED
+[18/Jun/2009:19:26:37] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:19:26:37] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:19:26:37] ENGINE Bus STOPPING
+[18/Jun/2009:19:26:37] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:19:26:37] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:19:26:37] ENGINE Bus STOPPED
+[18/Jun/2009:19:26:37] ENGINE Bus EXITING
+[18/Jun/2009:19:26:37] ENGINE Bus EXITED
+[18/Jun/2009:19:27:06] ENGINE Bus STARTING
+[18/Jun/2009:19:27:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:19:27:06] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:19:27:06] ENGINE Serving on localhost:8080
+[18/Jun/2009:19:27:06] ENGINE Bus STARTED
+[18/Jun/2009:19:30:38] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:19:30:38] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:19:30:38] ENGINE Bus STOPPING
+[18/Jun/2009:19:30:38] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:19:30:38] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:19:30:38] ENGINE Bus STOPPED
+[18/Jun/2009:19:30:38] ENGINE Bus EXITING
+[18/Jun/2009:19:30:38] ENGINE Bus EXITED
+[18/Jun/2009:19:30:58] ENGINE Bus STARTING
+[18/Jun/2009:19:30:58] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:19:30:58] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:19:30:58] ENGINE Serving on localhost:8080
+[18/Jun/2009:19:30:58] ENGINE Bus STARTED
+[18/Jun/2009:19:31:24] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 96, in edit
+    posts.append(post)
+NameError: global name 'posts' is not defined
+
+[18/Jun/2009:19:31:24] HTTP 
+Request Headers:
+  ACCEPT: */*
+  Content-Type: application/x-www-form-urlencoded
+  REFERER: http://localhost:8080/
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  Content-Length: 87
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:19:34:39] ENGINE Bus STARTING
+[18/Jun/2009:19:34:39] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:19:34:39] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:19:34:39] ENGINE Serving on localhost:8080
+[18/Jun/2009:19:34:39] ENGINE Bus STARTED
+[18/Jun/2009:19:34:56] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 93, in edit
+    posts.append(post)
+NameError: global name 'posts' is not defined
+
+[18/Jun/2009:19:34:56] HTTP 
+Request Headers:
+  ACCEPT: */*
+  Content-Type: application/x-www-form-urlencoded
+  REFERER: http://localhost:8080/
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  Content-Length: 87
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:19:35:43] ENGINE Bus STARTING
+[18/Jun/2009:19:35:43] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:19:35:43] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:19:35:43] ENGINE Serving on localhost:8080
+[18/Jun/2009:19:35:43] ENGINE Bus STARTED
+[18/Jun/2009:19:36:28] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 93, in edit
+    posts.append(post)
+NameError: global name 'posts' is not defined
+
+[18/Jun/2009:19:36:28] HTTP 
+Request Headers:
+  ACCEPT: */*
+  Content-Type: application/x-www-form-urlencoded
+  REFERER: http://localhost:8080/
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  Content-Length: 83
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:19:36:50] ENGINE Bus STARTING
+[18/Jun/2009:19:36:50] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:19:36:50] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:19:36:50] ENGINE Serving on localhost:8080
+[18/Jun/2009:19:36:50] ENGINE Bus STARTED
+[18/Jun/2009:19:39:00] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:19:39:00] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:19:39:00] ENGINE Bus STOPPING
+[18/Jun/2009:19:39:00] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:19:39:00] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:19:39:00] ENGINE Bus STOPPED
+[18/Jun/2009:19:39:00] ENGINE Bus EXITING
+[18/Jun/2009:19:39:00] ENGINE Bus EXITED
+[18/Jun/2009:19:41:36] ENGINE Bus STARTING
+[18/Jun/2009:19:41:36] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:19:41:36] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:19:41:37] ENGINE Serving on localhost:8080
+[18/Jun/2009:19:41:37] ENGINE Bus STARTED
+[18/Jun/2009:19:41:50] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 93, in edit
+    this.getPosts()
+NameError: global name 'this' is not defined
+
+[18/Jun/2009:19:41:50] HTTP 
+Request Headers:
+  ACCEPT: */*
+  Content-Type: application/x-www-form-urlencoded
+  REFERER: http://localhost:8080/
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  Content-Length: 83
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:19:43:01] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:19:43:01] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:19:43:01] ENGINE Bus STOPPING
+[18/Jun/2009:19:43:01] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:19:43:01] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:19:43:01] ENGINE Bus STOPPED
+[18/Jun/2009:19:43:01] ENGINE Bus EXITING
+[18/Jun/2009:19:43:01] ENGINE Bus EXITED
+[18/Jun/2009:19:43:06] ENGINE Bus STARTING
+[18/Jun/2009:19:43:06] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:19:43:06] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:19:43:06] ENGINE Serving on localhost:8080
+[18/Jun/2009:19:43:06] ENGINE Bus STARTED
+[18/Jun/2009:19:44:19] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:19:44:19] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:19:44:19] ENGINE Bus STOPPING
+[18/Jun/2009:19:44:19] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:19:44:19] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:19:44:19] ENGINE Bus STOPPED
+[18/Jun/2009:19:44:19] ENGINE Bus EXITING
+[18/Jun/2009:19:44:19] ENGINE Bus EXITED
+[18/Jun/2009:19:47:34] ENGINE Bus STARTING
+[18/Jun/2009:19:47:34] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:19:47:34] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:19:47:34] ENGINE Serving on localhost:8080
+[18/Jun/2009:19:47:34] ENGINE Bus STARTED
+[18/Jun/2009:19:47:50] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:19:47:50] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:19:47:50] ENGINE Bus STOPPING
+[18/Jun/2009:19:47:53] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:19:47:53] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:19:47:53] ENGINE Bus STOPPED
+[18/Jun/2009:19:47:53] ENGINE Bus EXITING
+[18/Jun/2009:19:47:53] ENGINE Bus EXITED
+[18/Jun/2009:20:03:47] ENGINE Bus STARTING
+[18/Jun/2009:20:03:47] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:20:03:47] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:20:03:47] ENGINE Serving on localhost:8080
+[18/Jun/2009:20:03:47] ENGINE Bus STARTED
+[18/Jun/2009:20:11:13] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:20:11:13] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:20:11:13] ENGINE Bus STOPPING
+[18/Jun/2009:20:11:13] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:20:11:13] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:20:11:13] ENGINE Bus STOPPED
+[18/Jun/2009:20:11:13] ENGINE Bus EXITING
+[18/Jun/2009:20:11:13] ENGINE Bus EXITED
+[18/Jun/2009:20:11:45] ENGINE Bus STARTING
+[18/Jun/2009:20:11:45] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:20:11:45] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:20:11:46] ENGINE Serving on localhost:8080
+[18/Jun/2009:20:11:46] ENGINE Bus STARTED
+[18/Jun/2009:20:12:18] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:20:12:18] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:20:12:18] ENGINE Bus STOPPING
+[18/Jun/2009:20:12:24] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:20:12:24] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:20:12:24] ENGINE Bus STOPPED
+[18/Jun/2009:20:12:24] ENGINE Bus EXITING
+[18/Jun/2009:20:12:24] ENGINE Bus EXITED
+[18/Jun/2009:20:18:56] ENGINE Bus STARTING
+[18/Jun/2009:20:18:56] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:20:18:56] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:20:18:56] ENGINE Serving on localhost:8080
+[18/Jun/2009:20:18:56] ENGINE Bus STARTED
+[18/Jun/2009:20:20:02] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:20:20:02] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:20:20:02] ENGINE Bus STOPPING
+[18/Jun/2009:20:20:03] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:20:20:03] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:20:20:03] ENGINE Bus STOPPED
+[18/Jun/2009:20:20:03] ENGINE Bus EXITING
+[18/Jun/2009:20:20:03] ENGINE Bus EXITED
+[18/Jun/2009:20:21:35] ENGINE Bus STARTING
+[18/Jun/2009:20:21:35] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:20:21:35] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:20:21:36] ENGINE Serving on localhost:8080
+[18/Jun/2009:20:21:36] ENGINE Bus STARTED
+[18/Jun/2009:20:25:48] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:20:25:48] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:20:25:48] ENGINE Bus STOPPING
+[18/Jun/2009:20:26:03] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:20:26:03] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:20:26:03] ENGINE Bus STOPPED
+[18/Jun/2009:20:26:03] ENGINE Bus EXITING
+[18/Jun/2009:20:26:03] ENGINE Bus EXITED
+[18/Jun/2009:20:29:24] ENGINE Bus STARTING
+[18/Jun/2009:20:29:24] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:20:29:24] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:20:29:25] ENGINE Serving on localhost:8080
+[18/Jun/2009:20:29:25] ENGINE Bus STARTED
+[18/Jun/2009:21:04:11] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:21:04:11] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:04:11] ENGINE Bus STOPPING
+[18/Jun/2009:21:04:11] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:21:04:11] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:04:11] ENGINE Bus STOPPED
+[18/Jun/2009:21:04:11] ENGINE Bus EXITING
+[18/Jun/2009:21:04:11] ENGINE Bus EXITED
+[18/Jun/2009:21:07:30] ENGINE Bus STARTING
+[18/Jun/2009:21:07:30] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:07:30] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:07:30] ENGINE Serving on localhost:8080
+[18/Jun/2009:21:07:30] ENGINE Bus STARTED
+[18/Jun/2009:21:16:59] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:21:16:59] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:16:59] ENGINE Bus STOPPING
+[18/Jun/2009:21:16:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:21:16:59] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:16:59] ENGINE Bus STOPPED
+[18/Jun/2009:21:16:59] ENGINE Bus EXITING
+[18/Jun/2009:21:16:59] ENGINE Bus EXITED
+[18/Jun/2009:21:22:48] ENGINE Bus STARTING
+[18/Jun/2009:21:22:48] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:22:48] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:22:48] ENGINE Serving on localhost:8080
+[18/Jun/2009:21:22:48] ENGINE Bus STARTED
+[18/Jun/2009:21:23:07] ENGINE Restarting because overcomplicated.conf changed.
+[18/Jun/2009:21:23:07] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:23:07] ENGINE Bus STOPPING
+[18/Jun/2009:21:23:08] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('localhost', 8080)) shut down
+[18/Jun/2009:21:23:08] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:23:08] ENGINE Bus STOPPED
+[18/Jun/2009:21:23:08] ENGINE Bus EXITING
+[18/Jun/2009:21:23:08] ENGINE Bus EXITED
+[18/Jun/2009:21:23:20] ENGINE Bus STARTING
+[18/Jun/2009:21:23:20] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:23:20] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:23:21] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:23:21] ENGINE Bus STARTED
+[18/Jun/2009:21:23:45] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 103, in login
+    cherrypy.session['authenticated'] = True
+  File "/usr/lib/python2.5/site-packages/cherrypy/__init__.py", line 326, in __setitem__
+    child = getattr(serving, self.__attrname__)
+AttributeError: '_Serving' object has no attribute 'session'
+
+[18/Jun/2009:21:23:45] HTTP 
+Request Headers:
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  Content-Type: application/x-www-form-urlencoded
+  REFERER: http://localhost:8080/
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  Content-Length: 29
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=f9f4ac7d0f615c74827f224493a17e07b847d791
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:24:16] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 103, in login
+    cherrypy.session['authenticated'] = True
+  File "/usr/lib/python2.5/site-packages/cherrypy/__init__.py", line 326, in __setitem__
+    child = getattr(serving, self.__attrname__)
+AttributeError: '_Serving' object has no attribute 'session'
+
+[18/Jun/2009:21:24:16] HTTP 
+Request Headers:
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  Content-Type: application/x-www-form-urlencoded
+  REFERER: http://localhost:8080/
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  Content-Length: 29
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=f9f4ac7d0f615c74827f224493a17e07b847d791
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:25:15] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:21:25:15] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:25:15] ENGINE Bus STOPPING
+[18/Jun/2009:21:25:15] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:25:15] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:25:15] ENGINE Bus STOPPED
+[18/Jun/2009:21:25:15] ENGINE Bus EXITING
+[18/Jun/2009:21:25:15] ENGINE Bus EXITED
+[18/Jun/2009:21:25:45] ENGINE Bus STARTING
+[18/Jun/2009:21:25:45] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:25:45] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:25:45] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:25:45] ENGINE Bus STARTED
+[18/Jun/2009:21:25:46] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 103, in login
+    isauthenticated = cherrypy.session.get('authenticated', 0)
+AttributeError: 'module' object has no attribute 'session'
+
+[18/Jun/2009:21:25:46] HTTP 
+Request Headers:
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  Content-Type: application/x-www-form-urlencoded
+  REFERER: http://localhost:8080/
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  Content-Length: 29
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=f9f4ac7d0f615c74827f224493a17e07b847d791
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:25:54] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 103, in login
+    isauthenticated = cherrypy.session.get('authenticated', 0)
+  File "/usr/lib/python2.5/site-packages/cherrypy/__init__.py", line 300, in __getattr__
+    child = getattr(serving, self.__attrname__)
+AttributeError: '_Serving' object has no attribute 'session'
+
+[18/Jun/2009:21:25:54] HTTP 
+Request Headers:
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  Content-Type: application/x-www-form-urlencoded
+  REFERER: http://localhost:8080/
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  Content-Length: 29
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  COOKIE: session_id=73cb174ea6fb34b58192d27a13d45d209f9a08c0
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:26:01] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:21:26:01] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:26:01] ENGINE Bus STOPPING
+[18/Jun/2009:21:26:05] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:26:05] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:26:05] ENGINE Bus STOPPED
+[18/Jun/2009:21:26:05] ENGINE Bus EXITING
+[18/Jun/2009:21:26:05] ENGINE Bus EXITED
+[18/Jun/2009:21:27:41] ENGINE Bus STARTING
+[18/Jun/2009:21:27:41] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:27:41] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:27:41] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:27:41] ENGINE Bus STARTED
+[18/Jun/2009:21:28:27] ENGINE Restarting because psb.py changed.
+[18/Jun/2009:21:28:27] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:28:27] ENGINE Bus STOPPING
+[18/Jun/2009:21:28:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:28:28] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:28:28] ENGINE Bus STOPPED
+[18/Jun/2009:21:28:28] ENGINE Bus EXITING
+[18/Jun/2009:21:28:28] ENGINE Bus EXITED
+[18/Jun/2009:21:29:19] ENGINE Bus STARTING
+[18/Jun/2009:21:29:19] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:29:19] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:29:19] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:29:19] ENGINE Bus STARTED
+[18/Jun/2009:21:29:39] ENGINE Started monitor thread 'Monitor'.
+[18/Jun/2009:21:30:39] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:21:30:39] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:30:39] ENGINE Bus STOPPING
+[18/Jun/2009:21:30:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:30:39] ENGINE Stopped thread 'Monitor'.
+[18/Jun/2009:21:30:39] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:30:39] ENGINE Bus STOPPED
+[18/Jun/2009:21:30:39] ENGINE Bus EXITING
+[18/Jun/2009:21:30:39] ENGINE Bus EXITED
+[18/Jun/2009:21:33:25] ENGINE Bus STARTING
+[18/Jun/2009:21:33:25] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:33:25] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:33:25] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:33:25] ENGINE Bus STARTED
+[18/Jun/2009:21:33:27] ENGINE Started monitor thread 'Monitor'.
+[18/Jun/2009:21:33:27] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 34, in index
+    if cherrypy.session['authenticated']:
+  File "/usr/lib/python2.5/site-packages/cherrypy/__init__.py", line 323, in __getitem__
+    return child[key]
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 167, in __getitem__
+    return self._data[key]
+KeyError: 'authenticated'
+
+[18/Jun/2009:21:33:27] HTTP 
+Request Headers:
+  COOKIE: session_id=50f5fff21eaa986b28e340d322f3b0818c49b5dc
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:34:27] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:21:34:27] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:34:27] ENGINE Bus STOPPING
+[18/Jun/2009:21:34:27] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:34:27] ENGINE Stopped thread 'Monitor'.
+[18/Jun/2009:21:34:27] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:34:27] ENGINE Bus STOPPED
+[18/Jun/2009:21:34:27] ENGINE Bus EXITING
+[18/Jun/2009:21:34:27] ENGINE Bus EXITED
+[18/Jun/2009:21:34:32] ENGINE Bus STARTING
+[18/Jun/2009:21:34:32] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:34:32] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:34:33] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:34:33] ENGINE Bus STARTED
+[18/Jun/2009:21:34:36] ENGINE Started monitor thread 'Monitor'.
+[18/Jun/2009:21:40:23] ENGINE Bus STARTING
+[18/Jun/2009:21:40:23] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:40:23] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:40:24] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:40:24] ENGINE Bus STARTED
+[18/Jun/2009:21:40:25] ENGINE Started monitor thread 'Monitor'.
+[18/Jun/2009:21:40:51]  Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'list' object has no attribute 'save'
+
+[18/Jun/2009:21:40:51] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 614, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'list' object has no attribute 'save'
+
+[18/Jun/2009:21:40:51] HTTP 
+Request Headers:
+  COOKIE: session_id=b5a0c144009404e1819d90a0110662a45413cd94
+  HOST: localhost:8080
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:41:35] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:21:41:35] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:41:35] ENGINE Bus STOPPING
+[18/Jun/2009:21:41:35] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:41:35] ENGINE Stopped thread 'Monitor'.
+[18/Jun/2009:21:41:35] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:41:35] ENGINE Bus STOPPED
+[18/Jun/2009:21:41:35] ENGINE Bus EXITING
+[18/Jun/2009:21:41:35] ENGINE Bus EXITED
+[18/Jun/2009:21:41:53] ENGINE Bus STARTING
+[18/Jun/2009:21:41:53] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:41:53] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:41:53] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:41:53] ENGINE Bus STARTED
+[18/Jun/2009:21:41:59] ENGINE Restarting because post.config changed.
+[18/Jun/2009:21:41:59] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:41:59] ENGINE Bus STOPPING
+[18/Jun/2009:21:41:59] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:41:59] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:41:59] ENGINE Bus STOPPED
+[18/Jun/2009:21:41:59] ENGINE Bus EXITING
+[18/Jun/2009:21:41:59] ENGINE Bus EXITED
+[18/Jun/2009:21:41:59] ENGINE Bus STARTING
+[18/Jun/2009:21:41:59] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:41:59] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:42:00] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:42:00] ENGINE Bus STARTED
+[18/Jun/2009:21:42:06] ENGINE Restarting because post.config changed.
+[18/Jun/2009:21:42:06] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:42:06] ENGINE Bus STOPPING
+[18/Jun/2009:21:42:06] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:42:06] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:42:06] ENGINE Bus STOPPED
+[18/Jun/2009:21:42:06] ENGINE Bus EXITING
+[18/Jun/2009:21:42:06] ENGINE Bus EXITED
+[18/Jun/2009:21:42:07] ENGINE Bus STARTING
+[18/Jun/2009:21:42:07] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:42:07] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:42:07] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:42:07] ENGINE Bus STARTED
+[18/Jun/2009:21:42:16]  Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'dict' object has no attribute 'save'
+
+[18/Jun/2009:21:42:16] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 614, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'dict' object has no attribute 'save'
+
+[18/Jun/2009:21:42:16] HTTP 
+Request Headers:
+  COOKIE: session_id=b5a0c144009404e1819d90a0110662a45413cd94
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:42:19]  Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'dict' object has no attribute 'save'
+
+[18/Jun/2009:21:42:19] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 609, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'dict' object has no attribute 'save'
+
+[18/Jun/2009:21:42:19] HTTP 
+Request Headers:
+  COOKIE: session_id=508ffe2175ef9350dfd80e8289b3ef67c71bef4b
+  HOST: localhost:8080
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:42:22]  Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'dict' object has no attribute 'save'
+
+[18/Jun/2009:21:42:22] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 609, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'dict' object has no attribute 'save'
+
+[18/Jun/2009:21:42:22] HTTP 
+Request Headers:
+  COOKIE: session_id=5c5878af7f954917deee4d12f3564fd41305d5f4
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:42:24]  Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'dict' object has no attribute 'save'
+
+[18/Jun/2009:21:42:24] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 609, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'dict' object has no attribute 'save'
+
+[18/Jun/2009:21:42:24] HTTP 
+Request Headers:
+  COOKIE: session_id=47e82914ec76b4e028e9cbcc939f985660085af3
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:42:25]  Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'dict' object has no attribute 'save'
+
+[18/Jun/2009:21:42:25] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 609, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'dict' object has no attribute 'save'
+
+[18/Jun/2009:21:42:25] HTTP 
+Request Headers:
+  COOKIE: session_id=5ecc3e925bf802bb072f42422b903b46e45641cf
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:42:25]  Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'dict' object has no attribute 'save'
+
+[18/Jun/2009:21:42:25] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 609, in respond
+    self.hooks.run('before_finalize')
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 576, in save
+    cherrypy.session.save()
+AttributeError: 'dict' object has no attribute 'save'
+
+[18/Jun/2009:21:42:25] HTTP 
+Request Headers:
+  COOKIE: session_id=33ee7829aeaca368c410ab17ba155466237a4828
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:43:37] ENGINE Bus STARTING
+[18/Jun/2009:21:43:37] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:43:37] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:43:38] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:43:38] ENGINE Started monitor thread 'Monitor'.
+[18/Jun/2009:21:43:38] ENGINE Bus STARTED
+[18/Jun/2009:21:43:50] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 111, in logout
+    cherrypy.session.remove('authenticated')
+  File "/usr/lib/python2.5/site-packages/cherrypy/__init__.py", line 301, in __getattr__
+    return getattr(child, name)
+AttributeError: 'RamSession' object has no attribute 'remove'
+
+[18/Jun/2009:21:43:50] HTTP 
+Request Headers:
+  COOKIE: session_id=b83609ba943b276aa1fcc906dd4eb0ea244f897b
+  HOST: localhost:8080
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:44:04] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:21:44:04] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:44:04] ENGINE Bus STOPPING
+[18/Jun/2009:21:44:05] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:44:05] ENGINE Stopped thread 'Monitor'.
+[18/Jun/2009:21:44:05] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:44:05] ENGINE Bus STOPPED
+[18/Jun/2009:21:44:05] ENGINE Bus EXITING
+[18/Jun/2009:21:44:05] ENGINE Bus EXITED
+[18/Jun/2009:21:44:12] ENGINE Bus STARTING
+[18/Jun/2009:21:44:12] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:44:12] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:44:12] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:44:12] ENGINE Bus STARTED
+[18/Jun/2009:21:44:12] ENGINE Started monitor thread 'Monitor'.
+[18/Jun/2009:21:46:39] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:21:46:39] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:46:39] ENGINE Bus STOPPING
+[18/Jun/2009:21:46:39] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:46:39] ENGINE Stopped thread 'Monitor'.
+[18/Jun/2009:21:46:39] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:46:39] ENGINE Bus STOPPED
+[18/Jun/2009:21:46:39] ENGINE Bus EXITING
+[18/Jun/2009:21:46:39] ENGINE Bus EXITED
+[18/Jun/2009:21:49:23] ENGINE Bus STARTING
+[18/Jun/2009:21:49:23] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:49:23] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:49:23] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:49:23] ENGINE Bus STARTED
+[18/Jun/2009:21:49:28] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:21:49:28] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:49:28] ENGINE Bus STOPPING
+[18/Jun/2009:21:49:28] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:49:28] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:49:28] ENGINE Bus STOPPED
+[18/Jun/2009:21:49:28] ENGINE Bus EXITING
+[18/Jun/2009:21:49:28] ENGINE Bus EXITED
+[18/Jun/2009:21:49:31] ENGINE Bus STARTING
+[18/Jun/2009:21:49:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:49:31] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:49:32] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:49:32] ENGINE Bus STARTED
+[18/Jun/2009:21:49:33] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 606, in respond
+    cherrypy.response.body = self.handler()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cpdispatch.py", line 25, in __call__
+    return self.callable(*self.args, **self.kwargs)
+  File "/cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py", line 40, in index
+    if isAuth():
+NameError: global name 'isAuth' is not defined
+
+[18/Jun/2009:21:49:33] HTTP 
+Request Headers:
+  COOKIE: session_id=3595d6683e2a1d3613cbff97eea788cd0644a0a2
+  HOST: localhost:8080
+  CACHE-CONTROL: max-age=0
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[18/Jun/2009:21:50:01] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:21:50:01] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:50:01] ENGINE Bus STOPPING
+[18/Jun/2009:21:50:02] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:50:02] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:50:02] ENGINE Bus STOPPED
+[18/Jun/2009:21:50:02] ENGINE Bus EXITING
+[18/Jun/2009:21:50:02] ENGINE Bus EXITED
+[18/Jun/2009:21:50:11] ENGINE Bus STARTING
+[18/Jun/2009:21:50:11] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:21:50:11] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:21:50:11] ENGINE Started monitor thread 'Monitor'.
+[18/Jun/2009:21:50:11] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:21:50:11] ENGINE Bus STARTED
+[18/Jun/2009:21:55:48] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[18/Jun/2009:21:55:48] ENGINE Stopped thread 'Autoreloader'.
+[18/Jun/2009:21:55:48] ENGINE Bus STOPPING
+[18/Jun/2009:21:55:48] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[18/Jun/2009:21:55:48] ENGINE Stopped thread 'Monitor'.
+[18/Jun/2009:21:55:48] ENGINE Stopped thread '_TimeoutMonitor'.
+[18/Jun/2009:21:55:48] ENGINE Bus STOPPED
+[18/Jun/2009:21:55:48] ENGINE Bus EXITING
+[18/Jun/2009:21:55:48] ENGINE Bus EXITED
+[18/Jun/2009:22:07:40] ENGINE Bus STARTING
+[18/Jun/2009:22:07:40] ENGINE Started monitor thread '_TimeoutMonitor'.
+[18/Jun/2009:22:07:40] ENGINE Started monitor thread 'Autoreloader'.
+[18/Jun/2009:22:07:40] ENGINE Started monitor thread 'Monitor'.
+[18/Jun/2009:22:07:40] ENGINE Serving on 127.0.0.1:8080
+[18/Jun/2009:22:07:40] ENGINE Bus STARTED

@@ -15,7 +15,7 @@ class Post(object):
     div = []
     if (createDiv): div.append('''<div class="post" id="%s">''' % self.date )
     div.append('''<a href="post?id=%s" class="thesubject">''' % self.date + self.title + '''</a>''')
-    div.append('''<h3 class="time">''' + self.date + '''</h3>''')
+    div.append('''<h3 class="time">%s-%s-%s''' % (self.date[4:6], self.date[6:8], self.date[:4]) + '''</h3>''')
     div.append('''<div class="thebody">\n''' + self.markedupbody +'''\n</div>''')
     if (createDiv): div.append('''\n</div>''')
     div = '\n'.join(div)

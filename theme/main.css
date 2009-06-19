@@ -1,150 +1,109 @@
+body {
+ font: 10px Verdana, sans-serif;
+ color: #333;
+}
+
 #wrap {
  width: 95%;
  margin-left: auto;
  margin-right: auto;
- margin-top: 10px;
- /*background-color: #ddd;*/
+ margin-top: 1em;
  text-align: left;
- font: 1.1em Verdana, sans-serif;
 }
 
 #header {
  text-align: left;
- margin: 0px;
- padding: 0px;
+ margin: 0em 0em 1em 0em;
+ padding: 0em 1em 0em 1em;
  width: 100%;
- height: 90px;
+ border-bottom: 1px solid #333;
+ height: 3.5em;
 }
 
-#main_title {
+#header h1 {
  float: left;
- width: 60%; 
-}
-
-#main_title h1 {
  font-weight: normal;
- margin: 5px;
- padding: 0px;
- font-size: 2.1em;
+ margin: .65em 0em 0em 0em;
+ padding: 0em;
+ font-size: 2.0em;
+ width: 50%;
 }
 
-#main_title h2 {
- font-weight: normal;
- margin: 2px;
- margin-left: 80px;
- padding: 0px;
- font-size: 1.1em;
-}
-
-#navigation {
- float: right;
- width: 35%;
-}
-
-#navigation ul {
+ul#navigation {
+ float: left;
+ width: 50%;
  text-align: right;
  list-style-type: none;
- margin: 0px;
- padding: 0px;
+ margin: 1.2em 0em 0em 0em;
+ padding: 0em;
 }
 
 #navigation li {
- font-size: 1.2em;
- line-height: 1.75em;
+ font-size: 1.6em;
+ line-height: 2.0em;
+ vertical-align: baseline;
  display: inline;
- margin: 0px;
- padding: 3px;
- background-color: #333;
- color: #fff;
+ padding: .3em .3em 0em .3em;
+ margin: 0em;
 }
 
-#navigation li:hover {
- background-color: #000;
+#navigation li a:hover {
+  color: #777;
 }
 
 #navigation li a {
   text-decoration: none;
-  color: #fff;
+  color: #222;
 }
 
-#sidebar {
- float: right;
- background-color: #666;
- margin: 5px;
- margin-right: 0px;
- padding: 0px;
- width: 25%;
+.createnew {
+  font-size: 2.0em;
+  display: block;
+  width: 10px;
+  height: 10px;
+  cursor: pointer;
 }
 
-#content {
+#posts {
  float: left;
- width: 73%;
- margin: 0px;
- margin-top: 5px;
- padding: 0px;
+ width: 70%;
+ margin: 0em;
+ margin-top: .5em;
+ padding: 0em;
 }
 
 .post {
- background: #999;
  margin: auto;
- margin-bottom: 10px;
+ margin-bottom: 1em;
  width: 90%;
-}
-
-.post h1 {
- font-size: 2em;
- font-weight: normal;
- margin: 0px;
-}
-
-.post h2 {
- font-size: 1.3em;
- font-weight: normal;
- margin: 0px;
+ font-size: 1.5em;
+ border-bottom: 1px dotted #777;
 }
 
 .post p {
- line-height: 1.5em;
- margin: 8px;
+ line-height: 1.8em;
+ margin: .5em 0em 0em 0em;
 }
 
-/*
-.post_footer {
- width: 100%;
- margin: 0px;
- background-color: #333;
- color: #fff;
-}
-
-.post_footer h1 {
- font-size: .9em;
- text-align: right;
-}
-
-.post_footer h2 {
- font-size: .7em;
- text-align: right;
-}
-*/
 #footer {
  clear: both;
  text-align: right;
  width: 100%;
- margin: 0px;
+ margin: 0em;
 }
 
 #footer h1 {
  font-size: 1.2em;
  font-weight: normal;
- margin: 3px;
- padding: 0px;
+ margin: 3em;
+ padding: 0em;
 }
 
 #footer h2 {
  font-size: .9em;
  font-weight: normal;
- margin: 1px;
- padding: 0px;
+ margin: 1em;
+ padding: 0em;
 }
 
 a.thesubject {
@@ -152,22 +111,22 @@ a.thesubject {
   text-decoration: none;
   color: #000;
   font-size: 1.5em;
-  font-weight: bold;
-  margin: 0px;
-  margin-left: 5px;
-  padding: 0px;
+  font-weight: normal;
+  margin: 0em 0em 0em 0em;
+  padding: 0em;
+  width: 70%;
 }
 
 h3.time {
   font-weight: normal;
   font-size: 1em;
-  padding: 0px;
-  margin: 0px;
-  margin-left: 5px;
+  padding: 0em;
+  margin: 0em 0em 0em 0em;
+  width: 30%;
 }
 
 .copyright {
-  font-size: .8em;
+  font-size: 1.2em;
 }
 
 .gist {
@@ -178,4 +137,18 @@ h3.time {
 #editTextarea {
   margin: auto;
   width: 90%;
+}
+
+#images {
+  float: left;
+  width: 30%;
+  margin: 0px;
+  margin-top: .5em;
+  padding: 0px;
+}
+
+#images img {
+  width: 95%;
+  padding: 5px;
+  border: 1px solid #000;
 }

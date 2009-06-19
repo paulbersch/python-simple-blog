@@ -23,9 +23,9 @@ cherrypy.tree.mount(blog_class.Blog(), config='post.config')
 
 if __name__ == '__main__':
   import os.path
-  cherrypy.config.update(os.path.join(os.path.dirname(__file__), 'tutorial.conf'))
+  cherrypy.config.update(os.path.join(os.path.dirname(__file__), 'overcomplicated.conf'))
 
-  #(depreciated)
+  #(deprecated)
   #cherrypy.server.quickstart()
   cherrypy.engine.start()
 
