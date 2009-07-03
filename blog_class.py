@@ -2,7 +2,7 @@ import post_class, comment_class, image_class
 import re, os, cherrypy
 
 class Blog(object):
-  def __init__(self, author = "Anonymous", url = "http://127.0.0.1"):
+  def __init__(self, author = "Paul", url = "http://overcomplicated.org/about"):
     self.posts = []
     self.author = author
     self.url = url

@@ -1032,3 +1032,97 @@ Request Headers:
 [18/Jun/2009:22:07:40] ENGINE Started monitor thread 'Monitor'.
 [18/Jun/2009:22:07:40] ENGINE Serving on 127.0.0.1:8080
 [18/Jun/2009:22:07:40] ENGINE Bus STARTED
+[19/Jun/2009:17:52:21] ENGINE Restarting because /cygdrive/c/Users/O/Documents/code/python/python-simple-blog/blog_class.py changed.
+[19/Jun/2009:17:52:21] ENGINE Stopped thread 'Autoreloader'.
+[19/Jun/2009:17:52:21] ENGINE Bus STOPPING
+[19/Jun/2009:17:52:21] ENGINE HTTP Server cherrypy._cpwsgi_server.CPWSGIServer(('127.0.0.1', 8080)) shut down
+[19/Jun/2009:17:52:21] ENGINE Stopped thread 'Monitor'.
+[19/Jun/2009:17:52:21] ENGINE Stopped thread '_TimeoutMonitor'.
+[19/Jun/2009:17:52:21] ENGINE Bus STOPPED
+[19/Jun/2009:17:52:21] ENGINE Bus EXITING
+[19/Jun/2009:17:52:21] ENGINE Bus EXITED
+[19/Jun/2009:17:58:11] ENGINE Bus STARTING
+[19/Jun/2009:17:58:11] ENGINE Started monitor thread '_TimeoutMonitor'.
+[19/Jun/2009:17:58:11] ENGINE Started monitor thread 'Autoreloader'.
+[19/Jun/2009:17:58:11] ENGINE Serving on 127.0.0.1:8080
+[19/Jun/2009:17:58:11] ENGINE Bus STARTED
+[19/Jun/2009:17:58:12] ENGINE Started monitor thread 'Monitor'.
+[19/Jun/2009:18:00:06]  Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cptools.py", line 251, in _lock_session
+    cherrypy.serving.session.acquire_lock()
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 268, in acquire_lock
+    self.locks.setdefault(self.id, threading.RLock()).acquire()
+  File "/usr/lib/python2.5/threading.py", line 77, in RLock
+    return _RLock(*args, **kwargs)
+  File "/usr/lib/python2.5/threading.py", line 83, in __init__
+    self.__block = _allocate_lock()
+error: can't allocate lock
+
+[19/Jun/2009:18:00:06] HTTP Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 603, in respond
+    self.hooks.run('before_handler')
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cptools.py", line 251, in _lock_session
+    cherrypy.serving.session.acquire_lock()
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 268, in acquire_lock
+    self.locks.setdefault(self.id, threading.RLock()).acquire()
+  File "/usr/lib/python2.5/threading.py", line 77, in RLock
+    return _RLock(*args, **kwargs)
+  File "/usr/lib/python2.5/threading.py", line 83, in __init__
+    self.__block = _allocate_lock()
+error: can't allocate lock
+
+[19/Jun/2009:18:00:06] HTTP 
+Request Headers:
+  COOKIE: session_id=07b21d5342e0167c581840786d828c32194e7b82
+  HOST: 127.0.0.1:8080
+  ACCEPT: text/xml,application/xml,application/xhtml+xml,text/html;q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+  ACCEPT-CHARSET: ISO-8859-1,*,utf-8
+  USER-AGENT: Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/525.19 (KHTML, like Gecko) Chrome/1.0.154.65 Safari/525.19
+  CONNECTION: Keep-Alive
+  Remote-Addr: 127.0.0.1
+  ACCEPT-LANGUAGE: en-US,en
+  ACCEPT-ENCODING: gzip,deflate,bzip2,sdch
+[19/Jun/2009:18:00:06]  Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 584, in close
+    sess.release_lock()
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 272, in release_lock
+    self.locks[self.id].release()
+  File "/usr/lib/python2.5/threading.py", line 116, in release
+    raise RuntimeError("cannot release un-aquired lock")
+RuntimeError: cannot release un-aquired lock
+
+[19/Jun/2009:18:00:06]  Traceback (most recent call last):
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cptree.py", line 123, in release_serving
+    req.close()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 478, in close
+    self.hooks.run('on_end_request')
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 98, in run
+    hook()
+  File "/usr/lib/python2.5/site-packages/cherrypy/_cprequest.py", line 58, in __call__
+    return self.callback(**self.kwargs)
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 584, in close
+    sess.release_lock()
+  File "/usr/lib/python2.5/site-packages/cherrypy/lib/sessions.py", line 272, in release_lock
+    self.locks[self.id].release()
+  File "/usr/lib/python2.5/threading.py", line 116, in release
+    raise RuntimeError("cannot release un-aquired lock")
+RuntimeError: cannot release un-aquired lock
+
+[21/Jun/2009:00:53:31] ENGINE Bus STARTING
+[21/Jun/2009:00:53:31] ENGINE Started monitor thread '_TimeoutMonitor'.
+[21/Jun/2009:00:53:31] ENGINE Started monitor thread 'Autoreloader'.
+[21/Jun/2009:00:53:32] ENGINE Serving on 127.0.0.1:8080
+[21/Jun/2009:00:53:32] ENGINE Bus STARTED
+[21/Jun/2009:00:53:44] ENGINE Started monitor thread 'Monitor'.
